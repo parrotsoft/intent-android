@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnOpenWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/sitioweb"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            android:text="@string/open_web"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/btnCallPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/smartphone"
+            android:text="@string/call_phone"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/btnGoogleMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/map"
+            android:text="@string/google_map"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/btnTakenPicture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/camera"
+            android:text="@string/taken_picture"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/btnSendEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/email"
+            android:text="@string/send_email"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
