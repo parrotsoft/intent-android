@@ -1,8 +1,10 @@
 <resources>
-    <string name="app_name">CallItent</string>
+    <string name="app_name">Call Intent</string>
     <string name="open_web">Abrir pagina Web</string>
     <string name="call_phone">Llamada de Telefono</string>
     <string name="google_map">Google Maps</string>
     <string name="taken_picture">Tomar Foto</string>
     <string name="send_email">Mandar Correo</string>
+    <string name="phone_call">Telefono a llamar:</string>
+    <string name="btnCall">Llamar</string>
 </resources>

@@ -43,8 +43,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivities(new Intent[]{intent});
                 break;
             case R.id.btnCallPhone:
-                intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel: 3015575931"));
+                intent = new Intent(this, CallPhone.class);
                 startActivities(new Intent[]{intent});
+                // intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel: 3015575931"));
+                // startActivities(new Intent[]{intent});
                 break;
             case R.id.btnGoogleMap:
                 intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo: 10.957506109910017, -74.8488981069837"));
